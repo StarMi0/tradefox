@@ -1,0 +1,1390 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, shrink-to-fit=no">
+	<title itemprop="name">Trade Fox</title>
+	<link rel="shortcut icon" href="../img/favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/slick.css">
+	<link rel="stylesheet" type="text/css" href="../css/jquery.formstyler.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+
+	<header class="header">
+	<div class="header-content">
+		<a href="" class="header-logo">
+			<span class="header-logo__icon"></span>
+			<span class="header-logo__descript"></span>
+		</a>
+		<div class="language-and-theme">
+			<div class="labguage-block">
+				<select class="language-select-list">
+					<option value="RU" selected>RU</option>
+					<option value="EN">EN</option>
+				</select>
+			</div>
+			<!--Тут в app.js для theme-block дается класс active при клике. Если нужно будет сохранить состояние - просто добавь этот класс.-->
+			<div class="theme-block">
+				<span class="theme-block__icon"></span>
+				<span class="theme-block__swipe">
+					<span class="theme-block__button"></span>
+				</span>
+			</div>
+		</div>
+		<div class="header-actions">
+			<div class="header-notifications">
+				<a href="" class="header-actions__notifications active">
+					<img src="../img/notification-icon.svg" alt="" class="header-actions__notification-image">
+				</a>
+				<div class="header-notifications-block">
+					<ul class="notifications-list">
+						<li class="notifications-list__item">
+							<div class="notifications-list__link new from-support">
+								<span class="notifications-list__image-wrp">
+									<img src="../img/notification-support.svg" alt="" class="notifications-list__image">
+								</span>
+								<span class="notifications-list__content">
+									<p class="notifications-list__text">Ваша заявка №102403 обработана сотрудником технической поддержки
+									</p>
+									<p class="notifications-list__time-or-descript">12 мин</p>
+								</span>
+							</div>
+						</li>
+						<li class="notifications-list__item">
+							<div class="notifications-list__link new from-server">
+								<span class="notifications-list__image-wrp">
+									<img src="../img/notification-server.svg" alt="" class="notifications-list__image">
+								</span>
+								<span class="notifications-list__content">
+									<p class="notifications-list__text">Срок действия сервера №1024 заканчива-ется 13 января 2021 года</p>
+									<p class="notifications-list__time-or-descript">3 ч</p>
+								</span>
+							</div>
+						</li>
+						<li class="notifications-list__item">
+							<div class="notifications-list__link new from-support">
+								<span class="notifications-list__image-wrp">
+									<img src="../img/notification-support.svg" alt="" class="notifications-list__image">
+								</span>
+								<span class="notifications-list__content">
+									<p class="notifications-list__text">Ваша заявка №102403 обработана сотрудником технической поддержки
+									</p>
+									<p class="notifications-list__time-or-descript">12 мин</p>
+								</span>
+							</div>
+						</li>
+						<li class="notifications-list__item">
+							<div class="notifications-list__link new from-server">
+								<span class="notifications-list__image-wrp">
+									<img src="../img/notification-server.svg" alt="" class="notifications-list__image">
+								</span>
+								<span class="notifications-list__content">
+									<p class="notifications-list__text">Срок действия сервера №1024 заканчива-ется 13 января 2021 года</p>
+									<p class="notifications-list__time-or-descript">3 ч</p>
+								</span>
+							</div>
+						</li>
+						<li class="notifications-list__item">
+							<div class="notifications-list__link new from-server">
+								<span class="notifications-list__image-wrp">
+									<img src="../img/notification-server.svg" alt="" class="notifications-list__image">
+								</span>
+								<span class="notifications-list__content">
+									<p class="notifications-list__text">Срок действия сервера №1024 заканчива-ется 13 января 2021 года</p>
+									<p class="notifications-list__time-or-descript">3 ч</p>
+								</span>
+							</div>
+						</li>
+					</ul>
+					<a href="../html/notifications.html" class="basic-button dark">Все уведомления</a>
+				</div>
+			</div>
+			<div class="header-bag">
+				<a href="../html/basket.html" class="header-actions__bag active">
+					<img src="../img/bag-icon.svg" alt="" class="header-actions__bag-image">
+				</a>
+				<div class="header-bag-block">
+					<div class="basket-table">
+						<div class="basket-table__body">
+							<div class="basket-table__row">
+								<div class="basket-table__cell">
+									<div class="basket-product-block">
+										<div class="basket-product-block__image-wrp">
+											<img src="../img/basket-robot.svg" alt="" class="basket-product-block__image">
+										</div>
+										<div class="basket-product-block__content">
+											<span class="basket-product-block__what">Робот</span>
+											<span class="basket-product-block__name">TRADE FOX NETTING</span>
+										</div>
+									</div>
+								</div>
+								<div class="basket-table__cell">
+									<div class="basket-table-price">
+										<span class="basket-table-price__price">40 000 ₽</span>
+										<button class="basket-table-price__remove"></button>
+									</div>
+								</div>
+							</div>
+							<div class="basket-table__row">
+								<div class="basket-table__cell">
+									<div class="basket-product-block">
+										<div class="basket-product-block__image-wrp">
+											<img src="../img/basket-server.svg" alt="" class="basket-product-block__image">
+										</div>
+										<div class="basket-product-block__content">
+											<span class="basket-product-block__what">Сервер</span>
+											<span class="basket-product-block__name">TRADE FOX SILVER (12 мес)</span>
+										</div>
+									</div>
+								</div>
+								<div class="basket-table__cell">
+									<div class="basket-table-price">
+										<span class="basket-table-price__price">6 885 ₽</span>
+										<button class="basket-table-price__remove"></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="basket-result-pay">
+						<div class="basket-result-pay__price-content">
+							<span class="basket-result-pay__descript">ИТОГО:</span>
+							<span class="basket-result-pay__price">48 885 ₽</span>
+						</div>
+						<a href="../html/basket.html" class="basic-button pay">ПЕРЕЙТИ В КОРЗИНУ</a>
+					</div>
+				</div>
+			</div>
+			<div class="header-user">
+				<a href="#modal-profile" class="header-user__image-wrp" data-toggle="modal">
+					<img src="../img/user.png" alt="" class="header-user__image">
+				</a>
+			</div>
+			<button class="open-menu">
+				<img src="../img/open-menu.svg" alt="" class="open-menu__image">
+			</button>
+		</div>
+	</div>
+</header>	<main class="main">
+		<section class="basic-section-wrp">
+			<div class="sidebar-wrp">
+				<div class="sidebar-content">
+					<div class="sidebar-head">
+						<a href="" class="header-logo">
+							<span class="header-logo__icon"></span>
+							<span class="header-logo__descript"></span>
+						</a>
+						<div class="labguage-block">
+							<select class="language-select-list">
+								<option value="RU" selected>RU</option>
+								<option value="EN">EN</option>
+							</select>
+						</div>
+						<div class="header-user">
+							<a href="#modal-profile" class="header-user__image-wrp" data-toggle="modal">
+								<img src="../img/user.png" alt="" class="header-user__image">
+							</a>
+						</div>
+					</div>
+					<ul class="navigation">
+						<li class="navigation__item">
+							<a href="" class="navigation__link">
+								<span class="navigation__icon-block">
+									<img src="../img/main-ico.svg" alt="" class="navigation__icon">
+								</span>
+								<span class="navigation__text">Главная</span>
+							</a>
+						</li>
+						<li class="navigation__item">
+							<a href="../html/my-robots.html" class="navigation__link">
+								<span class="navigation__icon-block">
+									<img src="../img/robots-icon.svg" alt="" class="navigation__icon">
+								</span>
+								<span class="navigation__text">Мои роботы</span>
+							</a>
+						</li>
+						<li class="navigation__item">
+							<a href="../html/my-servers.html" class="navigation__link">
+								<span class="navigation__icon-block">
+									<img src="../img/servers-icon.svg" alt="" class="navigation__icon">
+								</span>
+								<span class="navigation__text">Мои сервера</span>
+							</a>
+						</li>
+						<li class="navigation__item">
+							<a href="../html/my-partners.html" class="navigation__link">
+								<span class="navigation__icon-block">
+									<img src="../img/partnetrs-icon.svg" alt="" class="navigation__icon">
+								</span>
+								<span class="navigation__text">Мои партнеры</span>
+							</a>
+						</li>
+						<li class="navigation__item">
+							<a href="../html/magazine.html" class="navigation__link">
+								<span class="navigation__icon-block">
+									<img src="../img/magazines-icon.svg" alt="" class="navigation__icon">
+								</span>
+								<span class="navigation__text">Магазин роботов</span>
+							</a>
+						</li>
+						<li class="navigation__item">
+							<a href="../html/news.html" class="navigation__link">
+								<span class="navigation__icon-block">
+									<img src="../img/news-icon.svg" alt="" class="navigation__icon">
+								</span>
+								<span class="navigation__text">Новости</span>
+							</a>
+						</li>
+						<li class="navigation__item active">
+							<a href="../html/support.html" class="navigation__link new">
+								<span class="navigation__icon-block">
+									<img src="../img/support-icon.svg" alt="" class="navigation__icon">
+								</span>
+								<span class="navigation__text">Тех.поддержка</span>
+							</a>
+						</li>
+						<li class="navigation__item">
+							<a href="#modal-contacts" class="navigation__link" data-toggle="modal">
+								<span class="navigation__icon-block">
+									<img src="../img/contacts-icon.svg" alt="" class="navigation__icon">
+								</span>
+								<span class="navigation__text">Контакты</span>
+							</a>
+						</li>
+					</ul>
+					<div class="develop-block">
+						<div class="develop-content">
+							<span class="develop-content__text">Сайт разработан:</span>
+							<a href="" class="develop-content__name">
+								<img src="../img/developers.svg" alt="" class="develop-content__image">
+							</a>
+						</div>
+						<!--Тут в app.js для theme-block дается класс active при клике. Если нужно будет сохранить состояние - просто добавь этот класс.-->
+						<div class="theme-block">
+							<span class="theme-block__icon"></span>
+							<span class="theme-block__swipe">
+								<span class="theme-block__button"></span>
+							</span>
+						</div>
+					</div>
+				</div>
+				<button class="close-menu">
+					<img src="../img/close.svg" alt="" class="close-menu__image">
+				</button>
+			</div>
+			<div class="basic-content-wrp">
+				<div class="row">
+					<div class="basic-content">
+						<div class="col-md-8 lefts-side-robots-info">
+							<div class="basic-title-row">
+								<h2 class="second-level-title">Уведомления</h2>
+							</div>
+							<div role="tabpanel" class="notification-tabs">
+								<ul class="nav nav-tabs" role="tablist">
+									<li role="presentation" class="active">
+										<a href="#new" aria-controls="home" role="tab" data-toggle="tab">Непрочитанные</a>
+									</li>
+									<li role="presentation">
+										<a href="#old" aria-controls="tab" role="tab" data-toggle="tab">Прочитанные</a>
+									</li>
+									<li role="presentation">
+										<a href="#all" aria-controls="tab" role="tab" data-toggle="tab">Все</a>
+									</li>
+								</ul>
+								<div class="tab-content">
+									<div role="tabpanel" class="tab-pane active" id="new">
+										<ul class="notifications-list">
+											<li class="notifications-list__item">
+												<div class="notifications-list__link new from-support">
+													<span class="notifications-list__image-wrp">
+														<img src="../img/notification-support.svg" alt="" class="notifications-list__image">
+													</span>
+													<span class="notifications-list__content">
+														<p class="notifications-list__text">Ваша заявка №102403 обработана сотрудником технической
+															поддержки
+														</p>
+														<p class="notifications-list__time-or-descript">12 мин</p>
+													</span>
+												</div>
+											</li>
+											<li class="notifications-list__item">
+												<div class="notifications-list__link new from-server">
+													<span class="notifications-list__image-wrp">
+														<img src="../img/notification-server.svg" alt="" class="notifications-list__image">
+													</span>
+													<span class="notifications-list__content">
+														<p class="notifications-list__text">Срок действия сервера №1024 заканчива-ется 13 января
+															2021 года</p>
+														<p class="notifications-list__time-or-descript">3 ч</p>
+													</span>
+												</div>
+											</li>
+											<li class="notifications-list__item">
+												<div class="notifications-list__link new from-support">
+													<span class="notifications-list__image-wrp">
+														<img src="../img/notification-support.svg" alt="" class="notifications-list__image">
+													</span>
+													<span class="notifications-list__content">
+														<p class="notifications-list__text">Ваша заявка №102403 обработана сотрудником технической
+															поддержки
+														</p>
+														<p class="notifications-list__time-or-descript">12 мин</p>
+													</span>
+												</div>
+											</li>
+											<li class="notifications-list__item">
+												<div class="notifications-list__link new from-server">
+													<span class="notifications-list__image-wrp">
+														<img src="../img/notification-server.svg" alt="" class="notifications-list__image">
+													</span>
+													<span class="notifications-list__content">
+														<p class="notifications-list__text">Срок действия сервера №1024 заканчива-ется 13 января
+															2021 года</p>
+														<p class="notifications-list__time-or-descript">3 ч</p>
+													</span>
+												</div>
+											</li>
+											<li class="notifications-list__item">
+												<div class="notifications-list__link new from-server">
+													<span class="notifications-list__image-wrp">
+														<img src="../img/notification-server.svg" alt="" class="notifications-list__image">
+													</span>
+													<span class="notifications-list__content">
+														<p class="notifications-list__text">Срок действия сервера №1024 заканчива-ется 13 января
+															2021 года</p>
+														<p class="notifications-list__time-or-descript">3 ч</p>
+													</span>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div role="tabpanel" class="tab-pane" id="old">
+										<ul class="notifications-list">
+											<li class="notifications-list__item">
+												<div class="notifications-list__link from-support readed">
+													<span class="notifications-list__image-wrp">
+														<img src="../img/notification-support.svg" alt="" class="notifications-list__image">
+													</span>
+													<span class="notifications-list__content">
+														<p class="notifications-list__text">Ваша заявка №102403 обработана сотрудником технической
+															поддержки
+														</p>
+														<p class="notifications-list__time-or-descript">12 мин</p>
+													</span>
+												</div>
+											</li>
+											<li class="notifications-list__item">
+												<div class="notifications-list__link from-server readed">
+													<span class="notifications-list__image-wrp">
+														<img src="../img/notification-server.svg" alt="" class="notifications-list__image">
+													</span>
+													<span class="notifications-list__content">
+														<p class="notifications-list__text">Срок действия сервера №1024 заканчива-ется 13 января
+															2021 года</p>
+														<p class="notifications-list__time-or-descript">3 ч</p>
+													</span>
+												</div>
+											</li>
+											<li class="notifications-list__item">
+												<div class="notifications-list__link from-support readed">
+													<span class="notifications-list__image-wrp">
+														<img src="../img/notification-support.svg" alt="" class="notifications-list__image">
+													</span>
+													<span class="notifications-list__content">
+														<p class="notifications-list__text">Ваша заявка №102403 обработана сотрудником технической
+															поддержки
+														</p>
+														<p class="notifications-list__time-or-descript">12 мин</p>
+													</span>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div role="tabpanel" class="tab-pane" id="all">
+										<ul class="notifications-list">
+											<li class="notifications-list__item">
+												<div class="notifications-list__link new from-support">
+													<span class="notifications-list__image-wrp">
+														<img src="../img/notification-support.svg" alt="" class="notifications-list__image">
+													</span>
+													<span class="notifications-list__content">
+														<p class="notifications-list__text">Ваша заявка №102403 обработана сотрудником технической
+															поддержки
+														</p>
+														<p class="notifications-list__time-or-descript">12 мин</p>
+													</span>
+												</div>
+											</li>
+											<li class="notifications-list__item">
+												<div class="notifications-list__link from-server readed">
+													<span class="notifications-list__image-wrp">
+														<img src="../img/notification-server.svg" alt="" class="notifications-list__image">
+													</span>
+													<span class="notifications-list__content">
+														<p class="notifications-list__text">Срок действия сервера №1024 заканчива-ется 13 января
+															2021 года</p>
+														<p class="notifications-list__time-or-descript">3 ч</p>
+													</span>
+												</div>
+											</li>
+											<li class="notifications-list__item">
+												<div class="notifications-list__link from-support readed">
+													<span class="notifications-list__image-wrp">
+														<img src="../img/notification-support.svg" alt="" class="notifications-list__image">
+													</span>
+													<span class="notifications-list__content">
+														<p class="notifications-list__text">Ваша заявка №102403 обработана сотрудником технической
+															поддержки
+														</p>
+														<p class="notifications-list__time-or-descript">12 мин</p>
+													</span>
+												</div>
+											</li>
+											<li class="notifications-list__item">
+												<div class="notifications-list__link new from-server">
+													<span class="notifications-list__image-wrp">
+														<img src="../img/notification-server.svg" alt="" class="notifications-list__image">
+													</span>
+													<span class="notifications-list__content">
+														<p class="notifications-list__text">Срок действия сервера №1024 заканчива-ется 13 января
+															2021 года</p>
+														<p class="notifications-list__time-or-descript">3 ч</p>
+													</span>
+												</div>
+											</li>
+											<li class="notifications-list__item">
+												<div class="notifications-list__link new from-support">
+													<span class="notifications-list__image-wrp">
+														<img src="../img/notification-support.svg" alt="" class="notifications-list__image">
+													</span>
+													<span class="notifications-list__content">
+														<p class="notifications-list__text">Ваша заявка №102403 обработана сотрудником технической
+															поддержки
+														</p>
+														<p class="notifications-list__time-or-descript">12 мин</p>
+													</span>
+												</div>
+											</li>
+											<li class="notifications-list__item">
+												<div class="notifications-list__link new from-server">
+													<span class="notifications-list__image-wrp">
+														<img src="../img/notification-server.svg" alt="" class="notifications-list__image">
+													</span>
+													<span class="notifications-list__content">
+														<p class="notifications-list__text">Срок действия сервера №1024 заканчива-ется 13 января
+															2021 года</p>
+														<p class="notifications-list__time-or-descript">3 ч</p>
+													</span>
+												</div>
+											</li>
+											<li class="notifications-list__item">
+												<div class="notifications-list__link new from-server">
+													<span class="notifications-list__image-wrp">
+														<img src="../img/notification-server.svg" alt="" class="notifications-list__image">
+													</span>
+													<span class="notifications-list__content">
+														<p class="notifications-list__text">Срок действия сервера №1024 заканчива-ется 13 января
+															2021 года</p>
+														<p class="notifications-list__time-or-descript">3 ч</p>
+													</span>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 right-side-info">
+							<div class="notifications-in-page">
+								<div class="get-percent-banner-wrp">
+									<a href="" class="get-percent-banner">
+										<img src="../img/percent-banner.png" alt="" class="get-percent-banner__image-desctop">
+										<span class="get-percent-banner__label">срок акции неограничен</span>
+										<h2 class="get-percent-banner__title">Получи процент
+											от покупки роботов</h2>
+										<p class="get-percent-banner__text">Пригласи друга в Trade Fox и получи деньги на свой счет с его
+											покупок</p>
+										<span class="get-percent-banner__details">ПОДРОБНЕЕ</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+
+</footer>	<div class="modal fade" id="modal-profile">
+	<div class="modal-dialog profile-dialog">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<div class="modal-content-block">
+				<div class="modal-content-block__head">
+					<span class="modal-content-block__title">Профиль</span>
+				</div>
+				<div role="tabpanel" class="profile-tabs">
+					<ul class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active">
+							<a href="#user-data" aria-controls="home" role="tab" data-toggle="tab">Лич. данные</a>
+						</li>
+						<li role="presentation">
+							<a href="#user-check" aria-controls="tab" role="tab" data-toggle="tab">Мои счета</a>
+						</li>
+						<li role="presentation">
+							<a href="#user-balance" aria-controls="tab" role="tab" data-toggle="tab">Баланс ЛК</a>
+						</li>
+						<li role="presentation">
+							<a href="#user-password" aria-controls="tab" role="tab" data-toggle="tab">Пароль</a>
+						</li>
+					</ul>
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane active" id="user-data">
+							<form>
+								<div class="modal-profile-tab-content">
+									<div class="upload-image-block">
+										<span class="modal-block__name">Ваш аватар</span>
+										<div class="upload-image">
+											<div class="upload-image__image-wrp">
+												<img src="../img/user.png" alt="" class="upload-image__image">
+											</div>
+											<div class="upload-actions">
+												<div class="upload-actions__block">
+													<div class="upload-actions__upload">
+														<input type="file" class="upload-actions__input">
+														<span class="upload-actions__input-descript">Загрузить</span>
+													</div>
+													<a href="" class="upload-actions__remove-image disabled">Удалить</a>
+												</div>
+												<a href="" class="upload-actions__use-default-image">Использовать аватар по умолчанию</a>
+											</div>
+										</div>
+									</div>
+									<div class="cabinet-input-row">
+										<label class="cabinet-input-row__name">Имя и фамилия</label>
+										<input type="text" class="cabinet-input-row__input" value="Владимир Концов">
+									</div>
+									<div class="row">
+										<div class="col-xs-6">
+											<div class="cabinet-input-row">
+												<label class="cabinet-input-row__name">Имя профиля</label>
+												<input type="text" class="cabinet-input-row__input" value="MonkeyGarden">
+											</div>
+										</div>
+										<div class="col-xs-6">
+											<div class="cabinet-input-row">
+												<label class="cabinet-input-row__name">E-mail</label>
+												<input type="text" class="cabinet-input-row__input" value="kvart116@gmail.com">
+											</div>
+										</div>
+									</div>
+									<button class="basic-button green save-changes" type="submit">Сохранить изменения</button>
+								</div>
+							</form>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="user-check">
+							<div class="modal-profile-tab-content">
+								<div class="my-checks-modal-table">
+									<div class="my-checks-modal-table__body">
+										<div class="my-checks-modal-table__row heading">
+											<div class="my-checks-modal-table__cell">Название робота</div>
+											<div class="my-checks-modal-table__cell">Номер счета</div>
+										</div>
+										<div class="my-checks-modal-table__row">
+											<div class="my-checks-modal-table__cell">NTX F4U Hard Тимур</div>
+											<div class="my-checks-modal-table__cell">423423521</div>
+										</div>
+										<div class="my-checks-modal-table__row">
+											<div class="my-checks-modal-table__cell">NTX F4U Medium Тимур</div>
+											<div class="my-checks-modal-table__cell">423423521</div>
+										</div>
+										<div class="my-checks-modal-table__row">
+											<div class="my-checks-modal-table__cell">NTX Roboforex Hard 1 Тимур
+												копирование</div>
+											<div class="my-checks-modal-table__cell">423423521</div>
+										</div>
+										<div class="my-checks-modal-table__row">
+											<div class="my-checks-modal-table__cell">NTX Roboforex Hard 2 Тимур копирование</div>
+											<div class="my-checks-modal-table__cell">423423521</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="user-balance">
+							<div class="modal-profile-tab-content">
+								<div class="modal-profile-balance">
+									<span class="modal-block__name">Баланс личного кабинета</span>
+									<span class="modal-profile-balance__balance">10 321 421 ₽</span>
+								</div>
+								<div class="profile-cashout">
+									<span class="modal-block__name">Вывести средства</span>
+									<div class="row">
+										<div class="col-xs-6">
+											<div class="cabinet-input-row">
+												<label class="cabinet-input-row__name">Имя</label>
+												<input type="text" class="cabinet-input-row__input" value="KONSTANTIN">
+											</div>
+										</div>
+										<div class="col-xs-6">
+											<div class="cabinet-input-row">
+												<label class="cabinet-input-row__name">Фамилия</label>
+												<input type="text" class="cabinet-input-row__input" value="KONSTANTINOPOLSKYI">
+											</div>
+										</div>
+										<div class="col-xs-6">
+											<div class="cabinet-input-row">
+												<label class="cabinet-input-row__name">Номер карты</label>
+												<input type="text" class="cabinet-input-row__input" value="4817 7601 0089 4234">
+											</div>
+										</div>
+										<div class="col-xs-6">
+											<div class="cabinet-input-row">
+												<label class="cabinet-input-row__name">Срок действия карты</label>
+												<input type="text" class="cabinet-input-row__input" value="12/23">
+											</div>
+										</div>
+										<div class="col-xs-6">
+											<div class="cabinet-input-row">
+												<label class="cabinet-input-row__name">Сумма вывода (мин.: 100₽)</label>
+												<input type="text" class="cabinet-input-row__input" value="10 321 421 ₽">
+											</div>
+										</div>
+										<div class="col-xs-6">
+											<div class="cabinet-input-row">
+												<label class="cabinet-input-row__name">Остаток на счете</label>
+												<input type="text" class="cabinet-input-row__input disabled" value="0" disabled>
+											</div>
+										</div>
+									</div>
+									<button class="basic-button green save-changes" type="submit">Отправить</button>
+								</div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="user-password">
+							<div class="modal-profile-tab-content">
+								<div class="modal-profile-password">
+									<span class="modal-block__name">Изменить пароль</span>
+									<div class="row">
+										<div class="col-xs-6">
+											<div class="cabinet-input-row">
+												<label class="cabinet-input-row__name">Новый пароль</label>
+												<input type="password" class="cabinet-input-row__input" value="1234567890">
+											</div>
+										</div>
+										<div class="col-xs-6">
+											<div class="cabinet-input-row">
+												<label class="cabinet-input-row__name">Повторите пароль</label>
+												<input type="password" class="cabinet-input-row__input" value="1234567890">
+											</div>
+										</div>
+									</div>
+									<button class="basic-button green save-changes" type="submit">Сохранить изменения</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="modal-contacts">
+	<div class="modal-dialog contacts-dialog">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<div class="modal-content-block modal-contacts-block">
+				<div class="contacts-left">
+					<span class="modal-content-block__title">Контакты</span>
+					<ul class="contacts-list">
+						<li class="contacts-list__item">
+							<span class="contacts-list__name">Телефон:</span>
+							<a href="tel:+79600389788" class="contacts-list__value">+7(960) 038-97-88</a>
+						</li>
+						<li class="contacts-list__item">
+							<span class="contacts-list__name">Адрес:</span>
+							<span class="contacts-list__value">г.Казань, ул. Дзержинского 12</span>
+						</li>
+						<li class="contacts-list__item">
+							<span class="contacts-list__name">E-mail:</span>
+							<a href="mailto:info@trade-fox.com" class="contacts-list__value">info@trade-fox.com</a>
+						</li>
+					</ul>
+					<div class="ip-inn-block">
+						<span class="ip-inn-block__value">ИП Шайхлисламов Т.Ф.</span>
+						<span class="ip-inn-block__value">ИНН 026402379255</span>
+					</div>
+				</div>
+				<div class="map" id="map"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="modal-support">
+	<div class="modal-dialog feedback-dialog">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<form>
+				<div class="feedback-support-modal">
+					<span class="modal-content-block__title">Заявка #2345193284213213</span>
+					<ul class="messages-list">
+						<li class="messages-list__item support">
+							<div class="messages-list__message">
+								<p class="messages-list__text">Продавать в ручную не нужно, мы приостановим работа вашего счета до
+									стабилизации курса валют. Как только курс USD
+									приблизится к уровню закупки ордера мы продадим их.</p>
+							</div>
+							<div class="messages-list__date-and-who">
+								<span class="messages-list__date">10 марта 2020, 15:30 </span>
+								<span class="messages-list__who">Отдел технической поддержки</span>
+							</div>
+						</li>
+						<li class="messages-list__item">
+							<div class="messages-list__message">
+								<p class="messages-list__text">И что мне сейчас делать, чтобы не уйти в минус? Продать в ручную?</p>
+							</div>
+							<div class="messages-list__date-and-who">
+								<span class="messages-list__date">10 марта 2020, 15:30 </span>
+								<span class="messages-list__who">kvart116@gmail.com</span>
+							</div>
+						</li>
+						<li class="messages-list__item support">
+							<div class="messages-list__message">
+								<p class="messages-list__text">Добрый день, на вашем роботе были закуплены ордера с валютными парами
+									USD/EUR, в связи текущим положением в США курс USD
+									резко упал и на данный момент робот не продает данные ордера, для сохранения вашего депозита.</p>
+							</div>
+							<div class="messages-list__date-and-who">
+								<span class="messages-list__date">10 марта 2020, 15:30 </span>
+								<span class="messages-list__who">Отдел технической поддержки</span>
+							</div>
+						</li>
+						<li class="messages-list__item with-document">
+							<div class="messages-list__message">
+								<a href="" class="messages-list__file">Прикрепленный документ</a>
+							</div>
+						</li>
+						<li class="messages-list__item">
+							<div class="messages-list__message">
+								<p class="messages-list__text">Добрый день! Подскажите пожалуйста, почему мой робот ушел в просадку?</p>
+							</div>
+							<div class="messages-list__date-and-who">
+								<span class="messages-list__date">10 марта 2020, 15:30 </span>
+								<span class="messages-list__who">kvart116@gmail.com</span>
+							</div>
+						</li>
+						<li class="messages-list__item">
+							<div class="messages-list__message">
+								<p class="messages-list__text">Вы тут?</p>
+							</div>
+							<div class="messages-list__date-and-who">
+								<span class="messages-list__date">10 марта 2020, 15:30 </span>
+								<span class="messages-list__who">kvart116@gmail.com</span>
+							</div>
+						</li>
+					</ul>
+					<div class="write-message-block">
+						<div class="upload-file-block">
+							<input type="file" class="upload-file-block__input">
+						</div>
+						<input type="text" class="cabinet-input-row__input" placeholder="Написать сообщение">
+						<button class="send-message"></button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="modal-buy-robot">
+	<div class="modal-dialog buy-robot-dialog">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<div class="buy-robot-modal-content">
+				<div class="modal-robot-left"></div>
+				<div class="modal-robot-right">
+					<form>
+						<div class="buy-robot-form">
+							<div class="buy-robot-form__head">
+								<span class="modal-content-block__title buy-title">Покупка робота</span>
+								<span class="modal-content-block__title test-title">Заявка на тестирование робота</span>
+								<p class="buy-robot-form__test-descript">Тестирование робота проходит в течении 30 дней. После чего для
+									продолжения работы робота вам необходимо будет его
+									купить.</p>
+							</div>
+							<div class="buy-robot-form__instruction-block">
+								<p class="buy-robot-form__instruction">Для покупки робота необходимо ввести данные вашего счета для
+									подключения его к роботу. Если у вас нет счета, то
+									необходимо его открыть.
+									<a href="" class="buy-robot-form__instruction-link">ИНСТРУКЦИЯ ОТКРЫТИЯ СЧЕТА</a>
+								</p>
+							</div>
+							<div class="row">
+								<div class="col-sm-6 col-xs-12">
+									<div class="cabinet-input-row">
+										<label class="cabinet-input-row__name">Введите номер счета</label>
+										<input type="text" class="cabinet-input-row__input" value="4325632144">
+									</div>
+								</div>
+								<div class="col-sm-6 col-xs-12">
+									<div class="cabinet-input-row">
+										<label class="cabinet-input-row__name">Введите пароль</label>
+										<input type="password" class="cabinet-input-row__input" value="4325632144">
+									</div>
+								</div>
+								<div class="col-sm-6 col-xs-12">
+									<div class="cabinet-input-row">
+										<label class="cabinet-input-row__name">Выберите брокера</label>
+										<select class="basic-select js-formstyller-style">
+											<option value="">RoboForex</option>
+											<option value="">RoboForex2</option>
+											<option value="">RoboForex3</option>
+											<option value="">RoboForex4</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-sm-6 col-xs-12">
+									<div class="cabinet-input-row">
+										<label class="cabinet-input-row__name">Введите сервер брокера</label>
+										<input type="text" class="cabinet-input-row__input" value="RoboForex-ProCent">
+									</div>
+								</div>
+							</div>
+							<div class="buy-robot-actions">
+								<button class="basic-button green add-to-basket">ДОБАВИТЬ В КОРЗИНУ</button>
+								<button class="basic-button green send-request">ОТПРАВИТЬ ЗАЯВКУ</button>
+							</div>
+						</div>
+					</form>
+					<!--Показать блок buy-thanks после отправки заявкиs-->
+					<div class="buy-thanks">
+						<div class="modal-buy-thanks">
+							<span class="modal-buy-thanks__title">Заявка на бесплатное тестирование робота отправлена</span>
+							<p class="modal-buy-thanks__text">Наш менеджер свяжется с Вами в ближайшее время</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="modal-referal-links">
+	<div class="modal-dialog referal-links-dialog">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<div class="referal-links-content">
+				<span class="modal-content-block__title">Реферальные ссылки</span>
+				<ul class="referal-links-list">
+					<li class="referal-links-list__item">
+						<a href="" class="referal-links-list__link">https://www.tradefox.com/?affid=ji9fyuk</a>
+					</li>
+					<li class="referal-links-list__item">
+						<a href="" class="referal-links-list__link">https://partners.tradefox.com/ru/?affid=ji9fyuk</a>
+					</li>
+					<li class="referal-links-list__item">
+						<a href="" class="referal-links-list__link">https://www.tradefox.com/?affid=ji9fyuk</a>
+					</li>
+					<li class="referal-links-list__item">
+						<a href="" class="referal-links-list__link">https://partners.tradefox.com/ru/?affid=ji9fyuk</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="modal-terms">
+	<div class="modal-dialog terms-dialog">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<div class="referal-links-content">
+				<span class="modal-content-block__title">Условия партнерской программы</span>
+				<div class="terms-content">
+					<span class="terms-content__bonuses">Бонусы за продажу роботов:</span>
+					<div class="basic-table">
+						<div class="basic-table__body">
+							<div class="basic-table__row basic-table-head">
+								<div class="basic-table__cell">
+									<span class="basic-table__head-name">Название робота</span>
+								</div>
+								<div class="basic-table__cell mobile-cell-hidden">
+									<span class="basic-table__head-name">Стоимость</span>
+								</div>
+								<div class="basic-table__cell">
+									<span class="basic-table__head-name">Комиссия</span>
+								</div>
+							</div>
+							<div class="basic-table__row">
+								<div class="basic-table__cell">
+									<span class="basic-table__value">Trade Fox Hedge</span>
+								</div>
+								<div class="basic-table__cell mobile-cell-hidden">
+									<span class="basic-table__value">40 000 ₽</span>
+								</div>
+								<div class="basic-table__cell">
+									<span class="basic-table__value comission">10 000 ₽</span>
+								</div>
+							</div>
+							<div class="basic-table__row">
+								<div class="basic-table__cell">
+									<span class="basic-table__value">Trade Fox Netting</span>
+								</div>
+								<div class="basic-table__cell mobile-cell-hidden">
+									<span class="basic-table__value">40 000 ₽</span>
+								</div>
+								<div class="basic-table__cell">
+									<span class="basic-table__value comission">10 000 ₽</span>
+								</div>
+							</div>
+							<div class="basic-table__row">
+								<div class="basic-table__cell">
+									<span class="basic-table__value">Trade Fox Agressive PRO</span>
+								</div>
+								<div class="basic-table__cell mobile-cell-hidden">
+									<span class="basic-table__value">40 000 ₽</span>
+								</div>
+								<div class="basic-table__cell">
+									<span class="basic-table__value comission">10 000 ₽</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="terms-text-content">
+						<p class="terms-text-content__text">Настоящее соглашение (далее «Соглашение») является публичным
+							лицензионным договором о распространении программных
+							продуктов (далее «Продукты») и определяет порядок и условия отношений общества с ограниченной
+							ответственностью «Трайд
+							фокс» (далее «TradeFox») в качестве правообладателя и любого юридического или физического лица в качестве
+							продавца
+							(далее «Партнер»). Предметом настоящего Соглашения является передача прав на распространение программных
+							продуктов
+							(далее «Партнерская программа»), разработанных TradeFox или сторонними разработчиками и доступных для
+							приобретения на
+							сайте https://www.tradefox.ru/store/ на условиях Соглашения.</p>
+						<p class="terms-text-content__text with-indent">1. Соглашение вступает в силу после принятия Партнером
+							условий Соглашения, заполнения специальной анкеты на сайте
+							TradeFox, проверки и подтверждения TradeFox. TradeFox оставляет за собой право отказать в заключении
+							Соглашения по
+							собственному усмотрению и без объяснения причин. После заключения Соглашения Партнер получает право на
+							распространение
+							лицензий на Продукты конечным пользователям (далее «Пользователи»)</p>
+						<p class="terms-text-content__text with-indent">2. Партнер рекламирует и/или продает Продукты любым
+							доступным ему способом, в частности, размещая описания Продуктов на
+							собственных либо сторонних интернет-сайтах, в социальных сетях и прочих информационных ресурсах.</p>
+						<p class="terms-text-content__text with-indent">3. Соглашение вступает в силу после принятия Партнером
+							условий
+							Соглашения, заполнения специальной анкеты на сайте
+							TradeFox, проверки и подтверждения TradeFox. TradeFox оставляет за собой право отказать в заключении
+							Соглашения по
+							собственному усмотрению и без объяснения причин. После заключения Соглашения Партнер получает право на
+							распространение
+							лицензий на Продукты конечным пользователям (далее «Пользователи»)</p>
+						<p class="terms-text-content__text with-indent">4. Партнер рекламирует и/или продает Продукты любым
+							доступным ему
+							способом, в частности, размещая описания Продуктов на
+							собственных либо сторонних интернет-сайтах, в социальных сетях и прочих информационных ресурсах.</p>
+						<p class="terms-text-content__text with-indent">5. Соглашение вступает в силу после принятия Партнером
+							условий
+							Соглашения, заполнения специальной анкеты на сайте
+							TradeFox, проверки и подтверждения TradeFox. TradeFox оставляет за собой право отказать в заключении
+							Соглашения по
+							собственному усмотрению и без объяснения причин. После заключения Соглашения Партнер получает право на
+							распространение
+							лицензий на Продукты конечным пользователям (далее «Пользователи»)</p>
+						<p class="terms-text-content__text with-indent">6. Партнер рекламирует и/или продает Продукты любым
+							доступным ему
+							способом, в частности, размещая описания Продуктов на
+							собственных либо сторонних интернет-сайтах, в социальных сетях и прочих информационных ресурсах.</p>
+						<p class="terms-text-content__text">Настоящее соглашение (далее «Соглашение») является публичным
+							лицензионным договором о распространении программных
+							продуктов (далее «Продукты») и определяет порядок и условия отношений общества с ограниченной
+							ответственностью «Трайд
+							фокс» (далее «TradeFox») в качестве правообладателя и любого юридического или физического лица в качестве
+							продавца
+							(далее «Партнер»). Предметом настоящего Соглашения является передача прав на распространение программных
+							продуктов
+							(далее «Партнерская программа»), разработанных TradeFox или сторонними разработчиками и доступных для
+							приобретения на
+							сайте https://www.tradefox.ru/store/ на условиях Соглашения.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="modal-rent-server">
+	<div class="modal-dialog rent-server-dialog">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<span class="modal-content-block__title">Арендовать сервер</span>
+			<div class="rent-server-slider-wrp">
+				<div class="rent-server-slider">
+					<div class="rent-server-slider__item">
+						<div class="server-item">
+							<div class="server-item-head">
+								<span class="server-item-head__site-name">TRADE FOX</span>
+								<span class="server-item-head__server-name">SILVER</span>
+								<img src="../img/silver-bg.svg" alt="" class="server-item-head__image-bg">
+							</div>
+							<div class="server-item-content">
+								<ul class="server-info-list">
+									<li class="server-info-list__item">
+										<span class="server-info-list__name">CPU: </span>
+										<span class="server-info-list__value">1</span>
+									</li>
+									<li class="server-info-list__item">
+										<span class="server-info-list__name">RAM:</span>
+										<span class="server-info-list__value">512Mb</span>
+									</li>
+									<li class="server-info-list__item">
+										<span class="server-info-list__name">Диск: </span>
+										<span class="server-info-list__value">5Gb NVMe</span>
+									</li>
+									<li class="server-info-list__item">
+										<span class="server-info-list__name">Трафик: </span>
+										<span class="server-info-list__value">безлимитный</span>
+									</li>
+									<li class="server-info-list__item">
+										<span class="server-info-list__name">Локация: </span>
+										<span class="server-info-list__value">Европа</span>
+									</li>
+								</ul>
+								<form>
+									<select class="basic-select js-formstyller-style">
+										<option value="">месяц</option>
+										<option value="">3 месяца</option>
+										<option value="">6 месяцев</option>
+										<option value="">12 месяцев</option>
+									</select>
+									<span class="server-item-content__price">$4.5</span>
+									<button class="basic-button green to-basket">В КОРЗИНУ</button>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="rent-server-slider__item">
+						<div class="server-item">
+							<div class="server-item-head">
+								<span class="server-item-head__site-name">TRADE FOX</span>
+								<span class="server-item-head__server-name">Gold</span>
+								<img src="../img/gold-bg.svg" alt="" class="server-item-head__image-bg">
+							</div>
+							<div class="server-item-content">
+								<ul class="server-info-list">
+									<li class="server-info-list__item">
+										<span class="server-info-list__name">CPU: </span>
+										<span class="server-info-list__value">2</span>
+									</li>
+									<li class="server-info-list__item">
+										<span class="server-info-list__name">RAM:</span>
+										<span class="server-info-list__value">1024Mb</span>
+									</li>
+									<li class="server-info-list__item">
+										<span class="server-info-list__name">Диск: </span>
+										<span class="server-info-list__value">10Gb NVMe</span>
+									</li>
+									<li class="server-info-list__item">
+										<span class="server-info-list__name">Трафик: </span>
+										<span class="server-info-list__value">безлимитный</span>
+									</li>
+									<li class="server-info-list__item">
+										<span class="server-info-list__name">Локация: </span>
+										<span class="server-info-list__value">Европа</span>
+									</li>
+								</ul>
+								<form>
+									<select class="basic-select js-formstyller-style">
+										<option value="">месяц</option>
+										<option value="">3 месяца</option>
+										<option value="">6 месяцев</option>
+										<option value="">12 месяцев</option>
+									</select>
+									<span class="server-item-content__price">$8.5</span>
+									<button class="basic-button green to-basket">В КОРЗИНУ</button>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="rent-server-slider__item">
+						<div class="server-item">
+							<div class="server-item-head">
+								<span class="server-item-head__site-name">TRADE FOX</span>
+								<span class="server-item-head__server-name">platinum</span>
+								<img src="../img/platinum-bg.svg" alt="" class="server-item-head__image-bg">
+							</div>
+							<div class="server-item-content">
+								<ul class="server-info-list">
+									<li class="server-info-list__item">
+										<span class="server-info-list__name">CPU: </span>
+										<span class="server-info-list__value">3</span>
+									</li>
+									<li class="server-info-list__item">
+										<span class="server-info-list__name">RAM:</span>
+										<span class="server-info-list__value">1536Mb</span>
+									</li>
+									<li class="server-info-list__item">
+										<span class="server-info-list__name">Диск: </span>
+										<span class="server-info-list__value">15Gb NVMe</span>
+									</li>
+									<li class="server-info-list__item">
+										<span class="server-info-list__name">Трафик: </span>
+										<span class="server-info-list__value">безлимитный</span>
+									</li>
+									<li class="server-info-list__item">
+										<span class="server-info-list__name">Локация: </span>
+										<span class="server-info-list__value">Европа</span>
+									</li>
+								</ul>
+								<form>
+									<select class="basic-select js-formstyller-style">
+										<option value="">месяц</option>
+										<option value="">3 месяца</option>
+										<option value="">6 месяцев</option>
+										<option value="">12 месяцев</option>
+									</select>
+									<span class="server-item-content__price">$12.5</span>
+									<button class="basic-button green to-basket">В КОРЗИНУ</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="robot-slider-nav servers-slider-nav">
+					<button class="robot-slider-nav__prev"></button>
+					<div class="robot-slider-nav__counter">
+						<span class="slide-counter"></span>
+					</div>
+					<button class="robot-slider-nav__next"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="modal-extend">
+	<div class="modal-dialog extend-dialog">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<div class="extend-server-content">
+				<div class="extend-server-head">
+					<span class="extend-server-head__ip">135.181.181.221:45902</span>
+					<span class="extend-server-head__status active">Активный</span>
+				</div>
+				<ul class="server-data-list">
+					<li class="server-data-list__item">
+						<span class="server-data-list__name">Тариф</span>
+						<span class="server-data-list__value tarif">Gold</span>
+					</li>
+					<li class="server-data-list__item">
+						<span class="server-data-list__name">Логин</span>
+						<span class="server-data-list__value">f006</span>
+					</li>
+					<li class="server-data-list__item">
+						<span class="server-data-list__name">Пароль</span>
+						<span class="server-data-list__value">874PeTROgRRP</span>
+					</li>
+					<li class="server-data-list__item">
+						<span class="server-data-list__name">Дата аренды</span>
+						<span class="server-data-list__value">14.09.2020</span>
+					</li>
+					<li class="server-data-list__item">
+						<span class="server-data-list__name">Завершения аренды</span>
+						<span class="server-data-list__value">14.09.2020</span>
+					</li>
+				</ul>
+				<div class="server-data-actions">
+					<a href="" class="basic-button copy-data"><span>СКОПИРОВАТЬ ДАННЫЕ</span></a>
+					<a href="" class="basic-button">ПРОДЛИТЬ СЕРВЕР</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="modal-robots-archive">
+	<div class="modal-dialog archive-robots-dialog">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<span class="modal-content-block__title">Архив роботов</span>
+			<div class="archive-modal">
+				<div class="basic-table my-robots-table">
+					<div class="basic-table__body">
+						<div class="basic-table__row basic-table-head">
+							<div class="basic-table__cell">
+								<span class="basic-table__head-name">Название робота</span>
+							</div>
+							<div class="basic-table__cell mobile-cell-hidden">
+								<span class="basic-table__head-name">Просадка</span>
+							</div>
+							<div class="basic-table__cell mobile-cell-hidden">
+								<span class="basic-table__head-name">Маржа</span>
+							</div>
+							<div class="basic-table__cell mobile-cell-hidden">
+								<span class="basic-table__head-name">Доход за сутки</span>
+							</div>
+							<div class="basic-table__cell"></div>
+						</div>
+						<a href="" class="basic-table__row link">
+							<div class="basic-table__cell">
+								<span class="basic-table__value robot-name">NTX F4U Hard Тимур</span>
+							</div>
+							<div class="basic-table__cell mobile-cell-hidden">
+								<span class="basic-table__value drawdown">-0,61%</span>
+							</div>
+							<div class="basic-table__cell mobile-cell-hidden">
+								<span class="basic-table__value margin">16302%</span>
+							</div>
+							<div class="basic-table__cell mobile-cell-hidden">
+								<span class="basic-table__value income">+0,44%</span>
+							</div>
+							<div class="basic-table__cell">
+								<span class="basic-button details">Подробнее</span>
+							</div>
+						</a>
+						<a href="" class="basic-table__row link">
+							<div class="basic-table__cell">
+								<span class="basic-table__value robot-name">NTX F4U Medium Тимур</span>
+							</div>
+							<div class="basic-table__cell mobile-cell-hidden">
+								<span class="basic-table__value drawdown">-0,61%</span>
+							</div>
+							<div class="basic-table__cell mobile-cell-hidden">
+								<span class="basic-table__value margin">16302%</span>
+							</div>
+							<div class="basic-table__cell mobile-cell-hidden">
+								<span class="basic-table__value income">+0,44%</span>
+							</div>
+							<div class="basic-table__cell">
+								<span class="basic-button details">Подробнее</span>
+							</div>
+						</a>
+						<a href="" class="basic-table__row link">
+							<div class="basic-table__cell">
+								<span class="basic-table__value robot-name">NTX Roboforex Hard 1 Тимур
+									копирование</span>
+							</div>
+							<div class="basic-table__cell mobile-cell-hidden">
+								<span class="basic-table__value drawdown">-0,61%</span>
+							</div>
+							<div class="basic-table__cell mobile-cell-hidden">
+								<span class="basic-table__value margin">16302%</span>
+							</div>
+							<div class="basic-table__cell mobile-cell-hidden">
+								<span class="basic-table__value income">+0,44%</span>
+							</div>
+							<div class="basic-table__cell">
+								<span class="basic-button details">Подробнее</span>
+							</div>
+						</a>
+						<a href="" class="basic-table__row link">
+							<div class="basic-table__cell">
+								<span class="basic-table__value robot-name">NTX Roboforex Medium 1 Тимур</span>
+							</div>
+							<div class="basic-table__cell mobile-cell-hidden">
+								<span class="basic-table__value drawdown">-0,61%</span>
+							</div>
+							<div class="basic-table__cell mobile-cell-hidden">
+								<span class="basic-table__value margin">16302%</span>
+							</div>
+							<div class="basic-table__cell mobile-cell-hidden">
+								<span class="basic-table__value income">+0,44%</span>
+							</div>
+							<div class="basic-table__cell">
+								<span class="basic-button details">Подробнее</span>
+							</div>
+						</a>
+						<a href="" class="basic-table__row link disabled">
+							<div class="basic-table__cell">
+								<span class="basic-table__value robot-name">NTX Roboforex Medium 2 Тимур
+									копирование</span>
+							</div>
+							<div class="basic-table__cell mobile-cell-hidden">
+								<span class="basic-table__value drawdown">—</span>
+							</div>
+							<div class="basic-table__cell mobile-cell-hidden">
+								<span class="basic-table__value margin">—</span>
+							</div>
+							<div class="basic-table__cell mobile-cell-hidden">
+								<span class="basic-table__value income">—</span>
+							</div>
+							<div class="basic-table__cell">
+								<span class="basic-button details">Подробнее</span>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="modal-tools">
+	<div class="modal-dialog tools-dialog">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<span class="modal-content-block__title">Настройки робота</span>
+			<div class="tools-modal">
+				<div class="tools-modal__head">
+					<button class="basic-button empty add-or-remove">Добавить в архив</button>
+					<p class="tools-modal__info">Робот добавленный в архив не будет отображаться в общей статистике</p>
+				</div>
+				<form>
+					<div class="tools-form">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="cabinet-input-row">
+									<label class="cabinet-input-row__name">Имя робота</label>
+									<input type="text" class="cabinet-input-row__input" value="NTX Roboforex Hard 1 Тимур копирование">
+								</div>
+							</div>
+							<div class="col-sm-6 col-xs-12">
+								<div class="cabinet-input-row">
+									<label class="cabinet-input-row__name">Введите пароль</label>
+									<input type="password" class="cabinet-input-row__input" value="123456789">
+								</div>
+							</div>
+							<div class="col-sm-6 col-xs-12">
+								<div class="cabinet-input-row">
+									<label class="cabinet-input-row__name">Повторите пароль</label>
+									<input type="password" class="cabinet-input-row__input" value="123456789">
+								</div>
+							</div>
+						</div>
+						<p class="tools-modal__info">Пароль должен состоять из восьми или более символов латинского алфавита,
+							содержать заглавные и строчные буквы, цифры.
+							Для усложнения рекомендуем добавить символы и знаки препинания.</p>
+						<button class="basic-button green save-changes">Сохранить изменения</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>	<!-- jQuery -->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/ts-select2.min.js"></script>
+<script src="../js/slick.js"></script>
+<script src="../js/jquery.formstyler.js"></script>
+<script src="../js/chart.min.js"></script>
+<script src="../js/charts-scripts.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+<!-- My JS -->
+<script src="../js/app.js" async></script></body>
+
+
+
+
+</html>
